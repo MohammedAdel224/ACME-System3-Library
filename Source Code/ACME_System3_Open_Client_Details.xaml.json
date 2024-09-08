@@ -1,0 +1,81 @@
+{
+  "DisplayName": "ACME System3 - Open Client Details",
+  "Tooltip": "Desctiption:\n    open client details window on ACME System 3\n\nPre-Condition:\n    ACME System 3 search for client by ID window is opend\n    client is in the search results list\n\nPost-Condition:\n    client details window opend",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Number Of Retries",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "The number of times that the activity is to be retried.",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "Specifies the amount of time (in seconds) between each retry.",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intSearchWindowTimeout",
+      "DisplayName": "Search Window Timeout (milliseconds)",
+      "Category": "Pre-Condition",
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intClientIdTimeout",
+      "DisplayName": "Client ID Timeout (milliseconds)",
+      "Category": "Pre-Condition",
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strClientId",
+      "DisplayName": "Client ID",
+      "Category": "Input",
+      "Tooltip": null,
+      "Placeholder": "Client ID (String)",
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPostTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Post-Condition",
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

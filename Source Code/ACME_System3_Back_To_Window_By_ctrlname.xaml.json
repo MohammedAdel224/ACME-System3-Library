@@ -1,0 +1,69 @@
+{
+  "DisplayName": "ACME System3 - Back To Window By ctrlname",
+  "Tooltip": "Desctiption:\n    backing to a spacific window on ACME System 3 using ctrlname attribute\n\nPre-Condition:\n    target window is exist\n\nPost-Condition:\n    target window found",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Number Of Retries",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "The number of times that the activity is to be retried.",
+      "Widget": "Number",
+      "IsRequired": true,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "Specifies the amount of time (in seconds) between each retry.",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPreTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Pre-Condition",
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_strWindowName",
+      "DisplayName": "Window ctrlname",
+      "Category": "Input",
+      "Tooltip": null,
+      "Placeholder": "ctrlname (String)",
+      "Widget": "TextComposer",
+      "IsRequired": true,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intPostTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": "Post-Condition",
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

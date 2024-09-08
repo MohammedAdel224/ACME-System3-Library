@@ -1,0 +1,24 @@
+{
+  "Tags": [
+    {
+      "Key": "ACME"
+    },
+    {
+      "Key": "ACMESystem3"
+    },
+    {
+      "Key": "ACME System 3"
+    },
+    {
+      "Key": "ACME_System_3"
+    },
+    {
+      "Key": "ACME_System3"
+    },
+    {
+      "Key": "ACME System3"
+    }
+  ],
+  "SeparateRuntimeDependencies": true,
+  "IncludeSources": true
+}

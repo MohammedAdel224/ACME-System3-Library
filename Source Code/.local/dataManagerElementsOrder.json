@@ -1,0 +1,210 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Launch.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "booPostCondition&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPostTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strPassword&Sequence_1",
+        "strEmail&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_3",
+        "boolCredentials&Sequence_11",
+        "booPostCondition&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intCredentialsTimeout",
+        "in_intPostTimeout",
+        "in_intPreTimeout",
+        "in_tsRetryInterval",
+        "in_intRetryNumber",
+        "in_sstrPassword",
+        "in_strEmail"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Template - Copy (2).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "booPreCondition&Sequence_3",
+        "booPostCondition&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeOut",
+        "in_intPostTimeOut"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Show_All_Transactions.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "strFirstTransaction&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "out_boolTransactionsListEmpty"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Open_Client_Details.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolSearchWindowCondition&Sequence_2",
+        "boolClientId&Sequence_2",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPostTimeout",
+        "in_intSearchWindowTimeout",
+        "in_intClientIdTimeout",
+        "in_strClientId"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Extract_Transactions.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "out_tdTransactions"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Open_Account_Movements.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolClientAccountsWindow&Sequence_2",
+        "boolAccountNumber&Sequence_2",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intAccountNumberTimeout",
+        "in_intClientAccountsWindowTimeout",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPostTimeout",
+        "in_strAccountNumber"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Open_Client_Accounts.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "in_intPostTimeout"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Open_Search_For_Client_By_ID.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "in_intPostTimeout"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Search_For_Client_By_ID.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolPreCondition&Sequence_2",
+        "booPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "in_intPostTimeout",
+        "in_strClientId",
+        "in_boolIncludeInactiveClients"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Back_To_Window_By_ctrlname.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "WindowName&TryCatch_1",
+        "boolPreCondition&Sequence_2",
+        "strFirstTransaction&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strWindowName",
+        "in_intRetryNumber",
+        "in_tsRetryInterval",
+        "in_intPreTimeout",
+        "in_intPostTimeout"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}
