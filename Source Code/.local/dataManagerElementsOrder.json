@@ -42,6 +42,7 @@
         "booPostCondition&Sequence_5"
       ],
       "ArgumentsSectionElementsOrder": [
+        "out_boolCorrectCredential",
         "in_intCredentialsTimeout",
         "in_intPostTimeout",
         "in_intPreTimeout",
@@ -202,6 +203,21 @@
         "in_tsRetryInterval",
         "in_intPreTimeout",
         "in_intPostTimeout"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ACME_System3_Close.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolACMESystem3Exest&Sequence_6",
+        "boolPostCondition&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_intTimeout",
+        "in_intRetryNumber",
+        "in_tsRetryInterval"
       ],
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null

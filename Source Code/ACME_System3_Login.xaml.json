@@ -88,6 +88,18 @@
       "IsPrincipal": false,
       "ArgumentType": 0,
       "DataSourceItems": null
+    },
+    {
+      "Name": "out_boolCorrectCredential",
+      "DisplayName": "Is Credential Correct",
+      "Category": "Output",
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": "Toggle",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
     }
   ]
 }

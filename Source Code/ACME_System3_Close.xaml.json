@@ -1,0 +1,45 @@
+{
+  "DisplayName": "ACME System3 - Close",
+  "Tooltip": "Desctiption:\r\n    close AMCE System 3\n\nPost-Condition:\r\n    ACME System 3 closed",
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "in_intTimeout",
+      "DisplayName": "Timeout (milliseconds)",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "Enter a VB expression",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_intRetryNumber",
+      "DisplayName": "Number Of Retries",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "The number of times that the activity is to be retried.",
+      "Widget": "Number",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_tsRetryInterval",
+      "DisplayName": "Retry Interval",
+      "Category": "Retry",
+      "Tooltip": null,
+      "Placeholder": "Specifies the amount of time (in seconds) between each retry.",
+      "Widget": "Timespan",
+      "IsRequired": false,
+      "IsPrincipal": false,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

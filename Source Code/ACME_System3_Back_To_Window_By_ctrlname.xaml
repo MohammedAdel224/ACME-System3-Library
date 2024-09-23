@@ -18,7 +18,7 @@
     <x:Null />
   </VisualBasic.Settings>
   <sap2010:Annotation.AnnotationText>UPTF00000174eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjoiRGVzY3RpcHRpb246XG4gICAgYmFja2luZyB0byBhIHNwYWNpZmljIHdpbmRvdyBvbiBBQ01FIFN5c3RlbSAzIHVzaW5nIGN0cmxuYW1lIGF0dHJpYnV0ZVxuXG5QcmUtQ29uZGl0aW9uOlxuICAgIHRhcmdldCB3aW5kb3cgaXMgZXhpc3RcblxuUG9zdC1Db25kaXRpb246XG4gICAgdGFyZ2V0IHdpbmRvdyBmb3VuZCIsIjxWZXJzaW9uPmtfX0JhY2tpbmdGaWVsZCI6MX0=</sap2010:Annotation.AnnotationText>
-  <sap:VirtualizedContainerService.HintSize>734.4,1323.2</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>772.8,3270.4</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -91,7 +91,7 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="Desctiption:&#xA;    backing to a spacific window on ACME System 3 using ctrlname attribute&#xA;&#xA;Pre-Condition:&#xA;    target window is exist&#xA;&#xA;Post-Condition:&#xA;    target window found" DisplayName="ACME System3 Back To Window By ctrlname" sap:VirtualizedContainerService.HintSize="715.2,1258.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="Desctiption:&#xA;    backing to a spacific window on ACME System 3 using ctrlname attribute&#xA;&#xA;Pre-Condition:&#xA;    target window is exist&#xA;&#xA;Post-Condition:&#xA;    target window found" DisplayName="ACME System3 Back To Window By ctrlname" sap:VirtualizedContainerService.HintSize="715.2,3205.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -100,28 +100,28 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="652.8,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[&quot;Start ACME System3 back to window by ctrlname&quot;]" />
-    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="652.8,689.6" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="652.8,2636.8" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Variables>
         <Variable x:TypeArguments="x:String" Name="WindowName" />
       </TryCatch.Variables>
       <TryCatch.Try>
-        <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="553.6,426.4" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="[in_intRetryNumber]" RetryInterval="[in_tsRetryInterval]">
+        <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="616,2373.6" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="[in_intRetryNumber]" RetryInterval="[in_tsRetryInterval]">
           <ui:RetryScope.ActivityBody>
             <ActivityAction>
-              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="512,250.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="574.4,2197.6" sap2010:WorkflowViewState.IdRef="Sequence_9">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence DisplayName="PreCondition" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                <Sequence DisplayName="PreCondition" sap:VirtualizedContainerService.HintSize="512,1052.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:Boolean" Name="boolPreCondition" />
                   </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -167,10 +167,10 @@
                     </If.Else>
                   </If>
                 </Sequence>
-                <Sequence DisplayName="Back To Window" sap:VirtualizedContainerService.HintSize="449.6,56.8" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <Sequence DisplayName="Back To Window" sap:VirtualizedContainerService.HintSize="512,1008" sap2010:WorkflowViewState.IdRef="Sequence_6">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
@@ -210,7 +210,7 @@
                       </Sequence>
                     </ui:InterruptibleWhile.Body>
                   </ui:InterruptibleWhile>
-                  <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'acme-system3.exe ACME'" sap:VirtualizedContainerService.HintSize="449.6,130.4" sap2010:WorkflowViewState.IdRef="Activate_4">
+                  <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" DisplayName="Activate 'acme-system3.exe ACME'" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="Activate_4">
                     <ui:Activate.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="365288f2-f753-4898-9798-6a788dca9e7b" InformativeScreenshot="f1a1367d04223da747dea6e183ff4401" Selector="[string.Format(&quot;&lt;wnd app='acme-system3.exe' ctrlname='{0}' /&gt;&quot;, in_strWindowName)]">
                         <ui:Target.TimeoutMS>
@@ -221,9 +221,15 @@
                         </ui:Target.WaitForReady>
                       </ui:Target>
                     </ui:Activate.Target>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
                   </ui:Activate>
                 </Sequence>
-                <Sequence DisplayName="PostCondition" sap:VirtualizedContainerService.HintSize="449.6,48" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                <Sequence DisplayName="PostCondition" sap:VirtualizedContainerService.HintSize="512,48" sap2010:WorkflowViewState.IdRef="Sequence_3">
                   <Sequence.Variables>
                     <Variable x:TypeArguments="x:String" Name="strFirstTransaction" />
                   </Sequence.Variables>
