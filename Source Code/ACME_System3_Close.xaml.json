@@ -24,7 +24,7 @@
       "Tooltip": null,
       "Placeholder": "The number of times that the activity is to be retried.",
       "Widget": "Number",
-      "IsRequired": false,
+      "IsRequired": true,
       "IsPrincipal": false,
       "ArgumentType": 0,
       "DataSourceItems": null
